@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+.night{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    border: none;
+    box-shadow: 0 0 50px 10px white;
+}
+.day{
+    background-color: black;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    color: white;
+    border: none;
+    box-shadow: 0 0 50px 10px black;
+}
+.body-day{
+    transition: background-color 0.3s;
+    background-color: black;
+}
+.body-night{
+    transition: background-color 0.3s;
+    background-color: white;
+}
